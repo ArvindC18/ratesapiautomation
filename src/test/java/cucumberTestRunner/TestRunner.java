@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/java/features",
 		glue ="stepDefinitions",
-		tags="@RegressionTest",monochrome=true,
+		tags="@RegressionTest",
 		plugin= {"pretty","html:target/cucumber"})
 
 public class TestRunner {
