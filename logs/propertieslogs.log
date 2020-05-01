@@ -1,0 +1,76 @@
+[INFO ] 2020-05-01 16:17:49.353 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:17:53.468 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/latest
+[INFO ] 2020-05-01 16:17:53.471 [main] StepDefinition - Response status code is 200And it matches with the expected status code
+[INFO ] 2020-05-01 16:17:53.474 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:17:54.791 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/latest
+[INFO ] 2020-05-01 16:17:54.796 [main] StepDefinition - All mandatory tags are present in response body
+[INFO ] 2020-05-01 16:17:54.803 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:17:57.228 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/latest
+[INFO ] 2020-05-01 16:17:59.078 [main] StepDefinition - All currencies are present in response body
+[INFO ] 2020-05-01 16:17:59.081 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:18:00.415 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/latest
+[INFO ] 2020-05-01 16:18:00.417 [main] StepDefinition - Verifying date in response...
+[INFO ] 2020-05-01 16:18:00.445 [main] StepDefinition - Today is Fri May 01 16:18:00 IST 2020
+[INFO ] 2020-05-01 16:18:00.445 [main] StepDefinition - As today(or given date in request) is Saturday and currency market is closed, comparing response with friday...
+[INFO ] 2020-05-01 16:18:00.477 [main] StepDefinition - Date Verified successfully
+[INFO ] 2020-05-01 16:18:00.483 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:18:01.864 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/incorrecturl
+[INFO ] 2020-05-01 16:18:01.866 [main] StepDefinition - Response status code is 400And it matches with the expected status code
+[INFO ] 2020-05-01 16:18:01.875 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:18:03.232 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/2020-04-30
+[INFO ] 2020-05-01 16:18:03.234 [main] StepDefinition - Response status code is 200And it matches with the expected status code
+[INFO ] 2020-05-01 16:18:03.236 [main] StepDefinition - All mandatory tags are present in response body
+[INFO ] 2020-05-01 16:18:03.926 [main] StepDefinition - All currencies are present in response body
+[INFO ] 2020-05-01 16:18:03.930 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:18:05.340 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/1999-01-03
+[INFO ] 2020-05-01 16:18:05.342 [main] StepDefinition - Response status code is 400And it matches with the expected status code
+[INFO ] 2020-05-01 16:18:05.361 [main] StepDefinition - Expected response are present in response body
+[INFO ] 2020-05-01 16:18:05.368 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:18:07.338 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/2019-24-03
+[INFO ] 2020-05-01 16:18:07.340 [main] StepDefinition - Response status code is 400And it matches with the expected status code
+[INFO ] 2020-05-01 16:18:07.358 [main] StepDefinition - Expected response are present in response body
+[INFO ] 2020-05-01 16:18:07.363 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:18:08.743 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/2020-06-22
+[INFO ] 2020-05-01 16:18:08.744 [main] StepDefinition - Response status code is 200And it matches with the expected status code
+[INFO ] 2020-05-01 16:18:08.745 [main] StepDefinition - Verifying date in response...
+[INFO ] 2020-05-01 16:18:08.746 [main] StepDefinition - Today is Fri May 01 16:18:08 IST 2020
+[INFO ] 2020-05-01 16:18:08.746 [main] StepDefinition - As today(or given date in request) is Saturday and currency market is closed, comparing response with friday...
+[INFO ] 2020-05-01 16:18:08.772 [main] StepDefinition - Date Verified successfully
+[INFO ] 2020-05-01 16:26:29.862 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:26:33.498 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/latest
+[INFO ] 2020-05-01 16:26:33.501 [main] StepDefinition - Response status code is 200And it matches with the expected status code
+[INFO ] 2020-05-01 16:26:33.505 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:26:34.867 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/latest
+[INFO ] 2020-05-01 16:26:34.874 [main] StepDefinition - All mandatory tags are present in response body
+[INFO ] 2020-05-01 16:26:34.883 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:26:36.216 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/latest
+[INFO ] 2020-05-01 16:26:38.337 [main] StepDefinition - All currencies are present in response body
+[INFO ] 2020-05-01 16:26:38.341 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:26:39.632 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/latest
+[INFO ] 2020-05-01 16:26:39.634 [main] StepDefinition - Verifying date in response...
+[INFO ] 2020-05-01 16:26:39.652 [main] StepDefinition - Today is Fri May 01 16:26:39 IST 2020
+[INFO ] 2020-05-01 16:26:39.652 [main] StepDefinition - As today(or given date in request) is Saturday and currency market is closed, comparing response with friday...
+[INFO ] 2020-05-01 16:26:39.676 [main] StepDefinition - Date Verified successfully
+[INFO ] 2020-05-01 16:26:39.688 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:26:41.163 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/incorrecturl
+[INFO ] 2020-05-01 16:26:41.165 [main] StepDefinition - Response status code is 400And it matches with the expected status code
+[INFO ] 2020-05-01 16:26:41.173 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:26:42.531 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/2020-04-30
+[INFO ] 2020-05-01 16:26:42.532 [main] StepDefinition - Response status code is 200And it matches with the expected status code
+[INFO ] 2020-05-01 16:26:42.534 [main] StepDefinition - All mandatory tags are present in response body
+[INFO ] 2020-05-01 16:26:43.202 [main] StepDefinition - All currencies are present in response body
+[INFO ] 2020-05-01 16:26:43.208 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:26:44.595 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/1999-01-03
+[INFO ] 2020-05-01 16:26:44.597 [main] StepDefinition - Response status code is 400And it matches with the expected status code
+[INFO ] 2020-05-01 16:26:44.615 [main] StepDefinition - Expected response are present in response body
+[INFO ] 2020-05-01 16:26:44.620 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:26:46.021 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/2019-24-03
+[INFO ] 2020-05-01 16:26:46.023 [main] StepDefinition - Response status code is 400And it matches with the expected status code
+[INFO ] 2020-05-01 16:26:46.043 [main] StepDefinition - Expected response are present in response body
+[INFO ] 2020-05-01 16:26:46.048 [main] StepDefinition - We are going to execute service : ratesapi
+[INFO ] 2020-05-01 16:26:47.367 [main] StepDefinition - Submitted get request: -> https://api.ratesapi.io/api/2020-06-22
+[INFO ] 2020-05-01 16:26:47.369 [main] StepDefinition - Response status code is 200And it matches with the expected status code
+[INFO ] 2020-05-01 16:26:47.370 [main] StepDefinition - Verifying date in response...
+[INFO ] 2020-05-01 16:26:47.371 [main] StepDefinition - Today is Fri May 01 16:26:47 IST 2020
+[INFO ] 2020-05-01 16:26:47.371 [main] StepDefinition - As today(or given date in request) is Saturday and currency market is closed, comparing response with friday...
+[INFO ] 2020-05-01 16:26:47.396 [main] StepDefinition - Date Verified successfully
