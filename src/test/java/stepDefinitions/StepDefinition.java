@@ -156,13 +156,13 @@ public class StepDefinition {
         	int dayOfWeek = c.get(Calendar.DAY_OF_WEEK);        	
 			
         	switch(dayOfWeek) {
-        	case 0: 	//If todays date is sunday then compare date with friday
+        	case 1: 	//If todays date is sunday then compare date with friday
         			c.add(Calendar.DAY_OF_YEAR, -2);   
         			Expdate = c.getTime();
         			log.info("As today(or given date in request) is Sunday and currency market is closed, comparing response with friday...");
         			break;
         			
-        	case 6: //If todays date is saturday then compare date with friday
+        	case 7: //If todays date is saturday then compare date with friday
         			c.add(Calendar.DAY_OF_YEAR, -1);
         			Expdate = c.getTime();
         			log.info("As today(or given date in request) is Saturday and currency market is closed, comparing response with friday...");
